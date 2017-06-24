@@ -7,14 +7,19 @@ import router from './router'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
 
-// AdminLTE
-import './assets/adminlte/css/skins/_all-skins.min.css'
-import './assets/adminlte/css/AdminLTE.min.css'
-import './assets/adminlte/js/app.min.js'
-
 // css
-import 'font-awesome/css/font-awesome.min.css'
-import 'ionicons/css/ionicons.css'
+import './assets/adminbsb/css/google_fonts/google_fonts.css'
+import './assets/adminbsb/css/google_fonts/googleapi_material_icon.css'
+
+import './assets/adminbsb/plugins/node-waves/waves.css'
+import './assets/adminbsb/plugins/node-waves/waves.js'
+import './assets/adminbsb/plugins/animate-css/animate.css'
+
+import './assets/adminbsb/plugins/jquery-slimscroll/jquery.slimscroll.js'
+
+import './assets/adminbsb/css/style.css'
+import './assets/adminbsb/css/themes/all-themes.css'
+import './assets/adminbsb/js/admin.js'
 
 Vue.config.productionTip = false
 

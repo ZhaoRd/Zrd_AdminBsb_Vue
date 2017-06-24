@@ -1,3 +1,6 @@
 build/*.js
 config/*.js
 src/assets/adminlte/js/*.js
+src/assets/adminbsb/js/*.js
+src/assets/adminbsb/plugins/node-waves/waves.js
+src/assets/adminbsb/plugins/jquery-slimscroll/jquery.slimscroll.js
