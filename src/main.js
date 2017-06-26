@@ -25,11 +25,11 @@ import store from './store'
 
 Vue.config.productionTip = false
 
-router.beforeEach(function (to, from, next) {
+router.beforeEach((to, from, next) => {
   next() // 确保要调用 next 方法，否则钩子就不会被 resolved。
 })
 
-router.afterEach(function (route) {
+router.afterEach(route => {
   store.commit('updateRoute', route) // 更新store中的route状态
 })
 

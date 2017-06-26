@@ -12,7 +12,7 @@ var routeStore = {
     query: ''
   },
   mutations: {
-    updateRoute: function (state, route) {
+    updateRoute (state, route) {
       state.path = route.fullPath
       state.params = route.params
       state.query = route.query
