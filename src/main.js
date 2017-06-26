@@ -21,6 +21,8 @@ import './assets/adminbsb/css/style.css'
 import './assets/adminbsb/css/themes/all-themes.css'
 import './assets/adminbsb/js/admin.js'
 
+import './directives/focus.directive'
+
 import store from './store'
 
 Vue.config.productionTip = false

@@ -308,6 +308,14 @@
                 </div>
                 <!-- #END# Browser Usage -->
             </div>
+            <!--<div class="row clearfix">
+                
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="card">
+                        ddddddddddddddddddd
+                    </div>
+                </div>
+            </div>-->
         </div>
 </template>
 
